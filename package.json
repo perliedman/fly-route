@@ -1,0 +1,29 @@
+{
+  "name": "fly-route",
+  "version": "1.0.0",
+  "description": "Fly over a map route using Mapbox GL",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -o site.js index.js",
+    "run": "./scripts/run.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Per Liedman <per@liedman.net>",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.0.0-beta.1",
+    "mapbox-gl": "^0.9.0",
+    "turf-bearing": "^1.0.1",
+    "turf-distance": "^1.0.1",
+    "turf-flip": "^1.0.3",
+    "turf-linestring": "^1.0.2",
+    "turf-point": "^2.0.1",
+    "turf-simplify": "^1.0.3"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "http-server": "^0.8.0",
+    "leaflet-routing-machine": "^2.3.0",
+    "watchify": "^3.3.1"
+  }
+}
