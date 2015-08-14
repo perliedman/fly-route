@@ -4,7 +4,7 @@
   "description": "Fly over a map route using Mapbox GL",
   "main": "index.js",
   "scripts": {
-    "build": "browserify -o site.js index.js",
+    "build": "./scripts/build.sh",
     "run": "./scripts/run.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
