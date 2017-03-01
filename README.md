@@ -1,6 +1,8 @@
 fly-route
 =========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/perliedman/fly-route.svg)](https://greenkeeper.io/)
+
 A small test of [Mapbox GL](https://www.mapbox.com/mapbox-gl/).
 
 ## Running
